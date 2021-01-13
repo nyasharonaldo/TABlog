@@ -1,0 +1,3 @@
+tasks:
+  - init: npm install && npm install -g gatsby && gatsby develop
+    command: npm run start

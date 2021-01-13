@@ -17,10 +17,18 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `7r5fj61rq0vh`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/img`,
+        path: `${__dirname}/src/assets/images`,
       },
     },
     {

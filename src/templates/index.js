@@ -27,13 +27,13 @@ const Main = ({ data }) => {
             <script src="assets/js/custom.js"></script>
         </Helmet>
         {/* <!-- ***** Preloader Start ***** --> */}
-        <div id="preloader">
+        {/* <div id="preloader">
             <div class="jumper">
                 <div></div>
                 <div></div>
                 <div></div>
             </div>
-        </div>
+        </div> */}
         {/* <!-- ***** Header Area Start ***** --> */}
     <header class="header-area header-sticky">
         <div class="container">
@@ -158,9 +158,9 @@ const Main = ({ data }) => {
             </div>
         </div>
     </section>
-    <!-- ***** Features Big Item End ***** -->
+    {/* <!-- ***** Features Big Item End ***** -->
 
-    <!-- ***** Features Big Item Start ***** -->
+    <!-- ***** Features Big Item Start ***** --> */}
     <section class="section padding-bottom-100">
         <div class="container">
             <div class="row">
@@ -179,9 +179,9 @@ const Main = ({ data }) => {
             </div>
         </div>
     </section>
-    <!-- ***** Features Big Item End ***** -->
+    {/* <!-- ***** Features Big Item End ***** -->
 
-    <!-- ***** Home Parallax Start ***** -->
+    <!-- ***** Home Parallax Start ***** --> */}
     <section class="mini" id="work-process">
         <div class="mini-content">
             <div class="container">
@@ -194,7 +194,7 @@ const Main = ({ data }) => {
                     </div>
                 </div>
 
-                <!-- ***** Mini Box Start ***** -->
+                {/* <!-- ***** Mini Box Start ***** --> */}
                 <div class="row">
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <a href="#" class="mini-box">
@@ -239,16 +239,16 @@ const Main = ({ data }) => {
                         </a>
                     </div>
                 </div>
-                <!-- ***** Mini Box End ***** -->
+                {/* <!-- ***** Mini Box End ***** --> */}
             </div>
         </div>
     </section>
-    <!-- ***** Home Parallax End ***** -->
+    {/* <!-- ***** Home Parallax End ***** -->
 
-    <!-- ***** Testimonials Start ***** -->
+    <!-- ***** Testimonials Start ***** --> */}
     <section class="section" id="testimonials">
         <div class="container">
-            <!-- ***** Section Title Start ***** -->
+            {/* <!-- ***** Section Title Start ***** --> */}
             <div class="row">
                 <div class="col-lg-12">
                     <div class="center-heading">
@@ -261,10 +261,10 @@ const Main = ({ data }) => {
                     </div>
                 </div>
             </div>
-            <!-- ***** Section Title End ***** -->
+            {/* <!-- ***** Section Title End ***** --> */}
 
             <div class="row">
-                <!-- ***** Testimonials Item Start ***** -->
+                {/* <!-- ***** Testimonials Item Start ***** --> */}
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="team-item">
                         <div class="team-content">
@@ -280,9 +280,9 @@ const Main = ({ data }) => {
                         </div>
                     </div>
                 </div>
-                <!-- ***** Testimonials Item End ***** -->
+                {/* <!-- ***** Testimonials Item End ***** -->
                 
-                <!-- ***** Testimonials Item Start ***** -->
+                <!-- ***** Testimonials Item Start ***** --> */}
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="team-item">
                         <div class="team-content">
@@ -298,9 +298,9 @@ const Main = ({ data }) => {
                         </div>
                     </div>
                 </div>
-                <!-- ***** Testimonials Item End ***** -->
+                {/* <!-- ***** Testimonials Item End ***** -->
                 
-                <!-- ***** Testimonials Item Start ***** -->
+                <!-- ***** Testimonials Item Start ***** --> */}
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="team-item">
                         <div class="team-content">
@@ -316,16 +316,16 @@ const Main = ({ data }) => {
                         </div>
                     </div>
                 </div>
-                <!-- ***** Testimonials Item End ***** -->
+                {/* <!-- ***** Testimonials Item End ***** --> */}
             </div>
         </div>
     </section>
-    <!-- ***** Testimonials End ***** -->
+    {/* <!-- ***** Testimonials End ***** -->
 
-    <!-- ***** Pricing Plans Start ***** -->
+    <!-- ***** Pricing Plans Start ***** --> */}
     <section class="section colored" id="pricing-plans">
         <div class="container">
-            <!-- ***** Section Title Start ***** -->
+            {/* <!-- ***** Section Title Start ***** --> */}
             <div class="row">
                 <div class="col-lg-12">
                     <div class="center-heading">
@@ -338,10 +338,10 @@ const Main = ({ data }) => {
                     </div>
                 </div>
             </div>
-            <!-- ***** Section Title End ***** -->
+            {/* <!-- ***** Section Title End ***** --> */}
 
             <div class="row">
-                <!-- ***** Pricing Item Start ***** -->
+                {/* <!-- ***** Pricing Item Start ***** --> */}
                 <div class="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
                     <div class="pricing-item">
                         <div class="pricing-header">
@@ -367,9 +367,9 @@ const Main = ({ data }) => {
                         </div>
                     </div>
                 </div>
-                <!-- ***** Pricing Item End ***** -->
+                {/* <!-- ***** Pricing Item End ***** -->
 
-                <!-- ***** Pricing Item Start ***** -->
+                <!-- ***** Pricing Item Start ***** --> */}
                 <div class="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
                     <div class="pricing-item active">
                         <div class="pricing-header">
@@ -395,9 +395,9 @@ const Main = ({ data }) => {
                         </div>
                     </div>
                 </div>
-                <!-- ***** Pricing Item End ***** -->
+                {/* <!-- ***** Pricing Item End ***** -->
 
-                <!-- ***** Pricing Item Start ***** -->
+                <!-- ***** Pricing Item Start ***** --> */}
                 <div class="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
                     <div class="pricing-item">
                         <div class="pricing-header">
@@ -423,13 +423,13 @@ const Main = ({ data }) => {
                         </div>
                     </div>
                 </div>
-                <!-- ***** Pricing Item End ***** -->
+                {/* <!-- ***** Pricing Item End ***** --> */}
             </div>
         </div>
     </section>
-    <!-- ***** Pricing Plans End ***** -->
+    {/* <!-- ***** Pricing Plans End ***** -->
 
-    <!-- ***** Counter Parallax Start ***** -->
+    <!-- ***** Counter Parallax Start ***** --> */}
     <section class="counter">
         <div class="content">
             <div class="container">
@@ -462,12 +462,12 @@ const Main = ({ data }) => {
             </div>
         </div>
     </section>
-    <!-- ***** Counter Parallax End ***** -->   
+    {/* <!-- ***** Counter Parallax End ***** -->   
 
-    <!-- ***** Blog Start ***** -->
+    <!-- ***** Blog Start ***** --> */}
     <section class="section" id="blog">
         <div class="container">
-            <!-- ***** Section Title Start ***** -->
+            {/* <!-- ***** Section Title Start ***** --> */}
             <div class="row">
                 <div class="col-lg-12">
                     <div class="center-heading">
@@ -480,7 +480,7 @@ const Main = ({ data }) => {
                     </div>
                 </div>
             </div>
-            <!-- ***** Section Title End ***** -->
+            {/* <!-- ***** Section Title End ***** --> */}
 
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12">
@@ -534,12 +534,12 @@ const Main = ({ data }) => {
             </div>
         </div>
     </section>
-    <!-- ***** Blog End ***** -->
+    {/* <!-- ***** Blog End ***** -->
 
-    <!-- ***** Contact Us Start ***** -->
+    <!-- ***** Contact Us Start ***** --> */}
     <section class="section colored" id="contact-us">
         <div class="container">
-            <!-- ***** Section Title Start ***** -->
+            {/* <!-- ***** Section Title Start ***** --> */}
             <div class="row">
                 <div class="col-lg-12">
                     <div class="center-heading">
@@ -552,10 +552,10 @@ const Main = ({ data }) => {
                     </div>
                 </div>
             </div>
-            <!-- ***** Section Title End ***** -->
+            {/* <!-- ***** Section Title End ***** --> */}
 
             <div class="row">
-                <!-- ***** Contact Text Start ***** -->
+                {/* <!-- ***** Contact Text Start ***** --> */}
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <h5 class="margin-bottom-30">Keep in touch</h5>
                     <div class="contact-text">
@@ -564,44 +564,17 @@ const Main = ({ data }) => {
                         <p>You are NOT allowed to re-distribute Softy Pinko template on any template collection websites. Thank you.</p>
                     </div>
                 </div>
-                <!-- ***** Contact Text End ***** -->
+                {/* <!-- ***** Contact Text End ***** -->
 
-                <!-- ***** Contact Form Start ***** -->
-                <div class="col-lg-8 col-md-6 col-sm-12">
-                    <div class="contact-form">
-                        <form id="contact" action="" method="get">
-                          <div class="row">
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                              <fieldset>
-                                <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                              <fieldset>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="E-Mail Address" required="">
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                              <fieldset>
-                                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                              <fieldset>
-                                <button type="submit" id="form-submit" class="main-button">Send Message</button>
-                              </fieldset>
-                            </div>
-                          </div>
-                        </form>
-                    </div>
-                </div>
-                <!-- ***** Contact Form End ***** -->
+                <!-- ***** Contact Form Start ***** --> */}
+                
+                {/* <!-- ***** Contact Form End ***** --> */}
             </div>
         </div>
     </section>
-    <!-- ***** Contact Us End ***** -->
+    {/* <!-- ***** Contact Us End ***** -->
     
-    <!-- ***** Footer Start ***** -->
+    <!-- ***** Footer Start ***** --> */}
     <footer>
         <div class="container">
             <div class="row">
@@ -622,8 +595,8 @@ const Main = ({ data }) => {
             </div>
         </div>
     </footer>
+    </div>
   )
 }
 
 export default Main
-
